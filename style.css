@@ -12,8 +12,9 @@
 .space_mobile {
     margin-top: 12px;
 }
-.header_desktop {
-    display: none;
+
+.price_background {
+    width: 100%!important;
 }
 }
 @media all and (min-width: 1000px) {
@@ -34,6 +35,9 @@
     }
 }
 @media(max-width:768px) {
+    .header_desktop {
+        display: none;
+    }
     .hamburger {
         display: block;
     }
@@ -250,4 +254,6 @@ margin-top: 14px;
     height: 35px;
     width: 35px;
     margin-top: 14px;
+    display: flex;
+    justify-content: start;
 }
