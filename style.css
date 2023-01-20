@@ -1,4 +1,4 @@
-@media all and (max-width: 500px) and (min-width: 320px) {
+@media all and (max-width: 768px) and (min-width: 320px) {
 .container {
     padding-left: 12px;
     padding-right: 12px;
@@ -201,7 +201,7 @@ margin-right: auto;
 .price_background:hover {
     -webkit-transform: scale(1.1);
     transform: scale(1.05);
-
+    z-index: 1;
 }
 .transition {
     transition: 1s;
@@ -256,4 +256,11 @@ margin-top: 14px;
     margin-top: 14px;
     display: flex;
     justify-content: start;
+    position: relative;
+    margin-left: -45px;
+    
+}
+.header_desktop {
+    position: fixed;
+    z-index: 3
 }
