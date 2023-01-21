@@ -78,7 +78,8 @@
     font-family: 'Inter', sans-serif; 
     font-weight: 700; 
     color: #f2f2f2;
-    font-size: 40px;
+    font-size: 32px;
+    padding: 8px;
 }
 .header_submain_text {
     font-family: 'Inter', sans-serif; 
@@ -250,9 +251,7 @@ color: #F2F2F2;
 margin-top: 14px;
 }
 .burger_button {
-    background: url(images/hamburger.svg);
-    height: 35px;
-    width: 35px;
+    
     margin-top: 14px;
     display: flex;
     justify-content: start;
@@ -263,4 +262,32 @@ margin-top: 14px;
 .header_desktop {
     position: fixed;
     z-index: 3
+}
+#myLinks {
+  display: none;
+}
+.link_header_mobile {
+    color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+.icon {
+    background: url(images/hamburger.svg);
+    height: 35px;
+    width: 35px;
+    margin-top: 14px;
+    margin-right: 14px;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+.act_burger_style {
+    background: #1E1E1E;
 }
