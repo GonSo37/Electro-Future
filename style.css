@@ -40,6 +40,7 @@
     }
 }
 @media(max-width:768px) {
+
     .hamburger {
         display: block;
     }
@@ -85,7 +86,7 @@
 }
 .header_submain_text {
     font-family: 'Inter', sans-serif; 
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 400;
     color: #f2f2f2;
     margin-top: 16px!important;
@@ -112,7 +113,7 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 18px;
     line-height: 29px;
     color: #f2f2f2;
     margin-top: 24px;
@@ -122,12 +123,12 @@
     background: #F20C1F;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 25px;
-width: 160px;
+width: 130px;
 color: #f2f2f2;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
-font-size: 24px;
+font-size: 20px;
 line-height: 29px;
 }
 .main_button:hover {
@@ -214,7 +215,7 @@ margin-right: auto;
 font-style: normal;
 font-weight: 700;
 font-size: 40px;
-line-height: 48px;
+line-height: 32px;
 text-align: center;
 color: #F2F2F2;
 margin-top: 24px;
@@ -231,7 +232,7 @@ margin-top: 24px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 18px;
     line-height: 29px;
     color: #404040;
     margin-top: 12px;
@@ -292,4 +293,7 @@ margin-top: 14px;
   }
 .act_burger_style {
     background: #1E1E1E;
+}
+.btn_position {
+    bottom: 0px;
 }
